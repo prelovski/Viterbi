@@ -1,1 +1,4 @@
 # Viterbi
+
+
+start!
