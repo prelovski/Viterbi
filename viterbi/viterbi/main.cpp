@@ -74,7 +74,7 @@ int main(int argc, char** argv)
 		}
 	}
 
-	//вывод вектора u на экран
+	//вывод вектора c на экран
 	cout << "с = ";
 	for (int i = 0; i < c.size(); ++i)
 		cout << int(c[i]);
@@ -101,6 +101,14 @@ int main(int argc, char** argv)
 	for (int i = 0; i < noisy.size(); ++i)
 		cout << noisy[i] << " ";
 	cout << endl;
+
+
+	//вывод вектора c + noisy на экран
+	cout << "c+noisy = ";
+	for (int i = 0; i < noisy.size(); ++i)
+		cout << c[i]+noisy[i] << " ";
+	cout << endl;
+
 
 
 	//вывод вектора LLR на экран
